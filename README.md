@@ -39,3 +39,5 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 > La ubicación de los objetos persistentes creados se encuentra en la siguiente carpeta:
 >
 >> [serializacionUsoModeloWeka/models]().
+
+![](![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}){width='100px'}
