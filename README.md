@@ -48,5 +48,5 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 * NaiveBayes: 
 
 * J48: 
-
+  ![](J48.png)
 
