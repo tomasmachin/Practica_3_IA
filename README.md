@@ -2,6 +2,8 @@
 
 ### Objetivo de la práctica: 
 Predicción de resultados a partir de datos preseleccionados suficientes como para aplicar algoritmos de aprendizaje automático.
+### Miembros del equipo:
+Raquel Cerezo, Tomás Machín e Iván Martínez
 
 ## 1/ Elección del problema:
 ###### Detección del modelo óptimo de coche para un cliente que busque unas características concretas del vehículo en base a unas necesidades específicas.
