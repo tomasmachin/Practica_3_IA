@@ -47,8 +47,10 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
     * En la imagen se muestra la ejecución del programa, se ejecuta un escanner para que el usuario ingrese un dato entero a falta del último parámetro para consultarlo. A continuación, se añade al archivo de test lo escrito por el usuario, se consulta y devuelve el parámetro solicitado (atributo de clase coche). 
 * Random Forest:
 
-* NaiveBayes: 
-
+* NaiveBayes:
+  
+ ![](nbayes.png)
+  
 * J48:
 
   ![](j48.png)
