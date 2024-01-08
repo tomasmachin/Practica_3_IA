@@ -1,4 +1,4 @@
-# Práctica III de Inteligencia Artificial
+# Práctica III de Inteligencia Artificial.
 
 ### Objetivo de la práctica: 
 Predicción de resultados a partir de datos preseleccionados suficientes como para aplicar algoritmos de aprendizaje automático.
