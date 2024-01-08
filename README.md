@@ -35,3 +35,7 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 | J48     | Con el modelo original de datos se encontraron errores en el balanceo de datos por lo que se tuvo que balancear el archivo.|
 |   NaiveBayes    |  No se observaron muchos cambios con respecto al modelo anterior.  |
 | Random Forest     | A modo de comprobación empleamos Random Forest para realizar comparaciones con respecto a los datos anteriormente obtenidos. |
+
+> La ubicación de los objetos persistentes creados se encuentra en la siguiente carpeta:
+>
+>> [serializacionUsoModeloWeka/models]().
