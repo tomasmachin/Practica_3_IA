@@ -109,7 +109,6 @@ public class Principal {
 *_Número de predicciones correctas / Número total predicciones_
 * Análisis del recall: El cálculo realizado para su obtención ha sido de 25/(25+0)=1, por tanto, el valor del recall obtenido es 1.
 * _recall= Verdaderos positivos/ (Verdaderos positivos + Falsos positivos_
-* Análisis de F: F= 2* 1/4 * 1/(1/4+1)= 0.4
-Fórmula aplicada: 
+* Análisis de F: 
 _F = 2* precision * recall / (precision + recall)_
   F= 2* 1/4 * 1/(1/4+1)= 0.4
