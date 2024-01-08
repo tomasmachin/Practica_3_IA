@@ -40,5 +40,7 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 >
 >> [serializacionUsoModeloWeka/models]().
 
-![](![](randomforest.png){width='100px'}
+> Capturas de pantalla de los algoritmos empleados
+>>Random Forest:
+![](randomforest.png)
 
