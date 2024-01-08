@@ -56,7 +56,7 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 * J48:
 
   ![](j48.png)
-
+### 7/ Implementación de la aplicación por consola en este caso:
 ~~~javascript
 /*
 * To change this license header, choose License Headers in Project Properties.
