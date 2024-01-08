@@ -46,7 +46,9 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 * Descripción general de las capturas de pantalla (indicando cual pertenecea q ué algoritmo respectivamente): 
     * En la imagen se muestra la ejecución del programa, se ejecuta un escanner para que el usuario ingrese un dato entero a falta del último parámetro para consultarlo. A continuación, se añade al archivo de test lo escrito por el usuario, se consulta y devuelve el parámetro solicitado (atributo de clase coche). 
 * Random Forest:
-
+  
+ ![](rforest.png)
+  
 * NaiveBayes:
   
  ![](nbayes.png)
