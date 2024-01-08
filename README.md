@@ -57,3 +57,49 @@ Siguiendo la ruta que se le proporciona a continuación podrá acceder al archiv
 
   ![](j48.png)
 
+~~~javascript
+/*
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
+package aplicacion;
+import java.util.Scanner;
+import modelos.Modelo;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+public class Principal {
+ 
+    public static void main(String[] args) {
+        Modelo modelo = new Modelo();
+        Scanner scanner = new Scanner(System.in);
+        // Nombre del archivo
+        String nombreArchivo = "./test_data/testCarEv.arff";
+        // Pedir al usuario que ingrese texto
+        System.out.print("Ingresa el texto que deseas agregar al archivo: ");
+        String textoUsuario = scanner.nextLine();
+ 
+        try {
+            // FileWriter con true como segundo argumento para permitir la escritura al final del archivo
+            FileWriter fileWriter = new FileWriter(nombreArchivo, true);
+            // BufferedWriter para escribir eficientemente en el archivo
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            // Escribir el texto en el archivo
+            bufferedWriter.write(textoUsuario);
+            bufferedWriter.newLine(); // Agregar nueva línea si es necesario
+            // Cerrar el BufferedWriter
+            bufferedWriter.close();
+            System.out.println("Texto agregado al archivo correctamente.");
+        } catch (IOException e) {
+            System.err.println("Error al escribir en el archivo: " + e.getMessage());
+        }
+            // Aprende el modelo
+            modelo.aprenderModelo();
+            // Aplica el modelo y muestra la predicción
+            System.out.println("El clasificador con RandomForest obtiene: " + modelo.aplicarModelo());
+
+        scanner.close();
+}
+}
+~~~
