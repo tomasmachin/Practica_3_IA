@@ -106,11 +106,10 @@ public class Principal {
 ### Análisis de métricas relevantes:
 
 * Análisis de la precisión: Se ha obtenido un valor del 25% de precisión tras haber probado con unos 30 datos, los cuales estaban balanceados, devolviendo siempre el mismo número, por lo que es de +-1/4.
-* _recall= Verdaderos positivos/ (Verdaderos positivos + Falsos positivos_
+*_Número de predicciones correctas / Número total predicciones_
 * Análisis del recall: El cálculo realizado para su obtención ha sido de 25/(25+0)=1, por tanto, el valor del recall obtenido es 1.
-* _Número de predicciones correctas / Número total predicciones_
+* _recall= Verdaderos positivos/ (Verdaderos positivos + Falsos positivos_
 * Análisis de F: F= 2* 1/4 * 1/(1/4+1)= 0.4
-
 Fórmula aplicada: 
 _F = 2* precision * recall / (precision + recall)_
   F= 2* 1/4 * 1/(1/4+1)= 0.4
